@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>may tinh</title>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<table border="1px">
+    <tr>
+        <th>
+            <input type="text" id="txt" readonly="readonly" placeholder="number"/>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" class="num" value="1" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="2" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="3" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="+" onclick="txt.value+=this.value"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" class="num" value="4" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="5" onclick="txt.value+=this.value"/>
+            <input type="button" class="num"value="6" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="-" onclick="txt.value+=this.value"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" class="num" value="7" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="8" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="9" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="*" onclick="txt.value+=this.value"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" class="num" value="0" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="/" onclick="txt.value+=this.value"/>
+            <input type="button" class="num" value="C" onclick="txt.value=' '"/>
+            <input type="button" class="num" value="=" onclick="txt.value=eval(txt.value)"/>
+        </td>
+    </tr>
+</table>
+</body>
+
+</html>
